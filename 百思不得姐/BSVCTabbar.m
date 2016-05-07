@@ -7,6 +7,10 @@
 //
 
 #import "BSVCTabbar.h"
+#import "BSessenceTV.h"
+#import "BSNewTV.h"
+#import "BSFriendTV.h"
+#import "BSMeTV.h"
 
 @interface BSVCTabbar ()
 
@@ -31,48 +35,35 @@
     [apparItem setTitleTextAttributes:normalAttr forState:UIControlStateNormal];
     [apparItem setTitleTextAttributes:selectAttr forState:UIControlStateNormal];
     
-    UIViewController* VC1 = [[UIViewController alloc] init];
+    BSessenceTV* VC1 = [[BSessenceTV alloc] init];
     VC1.view.backgroundColor = [UIColor greenColor];
     VC1.title = @"精华";
-    [VC1.tabBarItem setImage:[UIImage imageNamed:@"tabBar_essence_icon"]];
-    UIImage* selectImg = [UIImage imageNamed:@"tabBar_essence_click_icon"];
-    selectImg = [selectImg imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];// 使用原始的图片，不渲染
-    [VC1.tabBarItem setSelectedImage:selectImg];
-    [self addChildViewController:VC1];
+    [self setupChildVC:VC1 normalImg:@"tabBar_essence_icon" seleteImg:@"tabBar_essence_click_icon"];
     
-    UIViewController* VC2 = [[UIViewController alloc] init];
+    BSNewTV* VC2 = [[BSNewTV alloc] init];
     VC2.view.backgroundColor = [UIColor redColor];
     VC2.title = @"新帖";
-    [VC2.tabBarItem setImage:[UIImage imageNamed:@"tabBar_new_icon"]];
-    UIImage* selectImg1 = [UIImage imageNamed:@"tabBar_new_click_icon"];
-    selectImg1 = [selectImg1 imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    [VC2.tabBarItem setSelectedImage:selectImg1];
-    [self addChildViewController:VC2];
+    [self setupChildVC:VC2 normalImg:@"tabBar_new_icon" seleteImg:@"tabBar_new_click_icon"];
     
-    UIViewController* VC3 = [[UIViewController alloc] init];
+    BSFriendTV* VC3 = [[BSFriendTV alloc] init];
     VC3.view.backgroundColor = [UIColor blueColor];
-    [VC3.tabBarItem setImage:[UIImage imageNamed:@"tabBar_friendTrends_icon"]];
-    UIImage* selectImg2 = [UIImage imageNamed:@"tabBar_friendTrends_click_icon"];
-    selectImg2 = [selectImg2 imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    [VC3.tabBarItem setSelectedImage:selectImg2];
+    [self setupChildVC:VC3 normalImg:@"tabBar_friendTrends_icon" seleteImg:@"tabBar_friendTrends_click_icon"];
     VC3.title = @"关注";
-    [self addChildViewController:VC3];
     
-    UIViewController* VC4 = [[UIViewController alloc] init];
+    BSMeTV* VC4 = [[BSMeTV alloc] init];
     VC4.title = @"我的";
-    [VC4.tabBarItem setImage:[UIImage imageNamed:@"tabBar_me_icon"]];
-    UIImage* selectImg3 = [UIImage imageNamed:@"tabBar_me_click_icon"];
-    selectImg3 = [selectImg3 imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    [VC4.tabBarItem setSelectedImage:selectImg3];
-    VC4.view.backgroundColor = [UIColor grayColor];
-    [self addChildViewController:VC4];
-    
-    
+    [self setupChildVC:VC4 normalImg:@"tabBar_me_icon" seleteImg:@"tabBar_me_click_icon"];
+
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void) setupChildVC:(UIViewController*) vc normalImg:(NSString*) normal seleteImg:(NSString*)select
+{
+    [vc.tabBarItem setImage:[UIImage imageNamed:normal]];
+    UIImage* selectImage = [UIImage imageNamed:select];
+    selectImage = [selectImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    [vc.tabBarItem setSelectedImage:selectImage];
+    
+    [self addChildViewController:vc];
 }
 
 @end

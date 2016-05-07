@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		AE44C9091CDE201800C66253 /* BSVCTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9081CDE201800C66253 /* BSVCTabbar.m */; };
+		AE44C90C1CDE3CE300C66253 /* BSessenceTV.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C90B1CDE3CE300C66253 /* BSessenceTV.m */; };
+		AE44C90F1CDE3D1C00C66253 /* BSNewTV.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C90E1CDE3D1C00C66253 /* BSNewTV.m */; };
+		AE44C9121CDE3D2E00C66253 /* BSFriendTV.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9111CDE3D2E00C66253 /* BSFriendTV.m */; };
+		AE44C9151CDE3D4800C66253 /* BSMeTV.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9141CDE3D4800C66253 /* BSMeTV.m */; };
 		AE4DC0D41CDD8C9100617507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4DC0D31CDD8C9100617507 /* main.m */; };
 		AE4DC0D71CDD8C9100617507 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4DC0D61CDD8C9100617507 /* AppDelegate.m */; };
 		AE4DC0DD1CDD8C9200617507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4DC0DB1CDD8C9200617507 /* Main.storyboard */; };
@@ -17,6 +21,14 @@
 /* Begin PBXFileReference section */
 		AE44C9071CDE201800C66253 /* BSVCTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSVCTabbar.h; sourceTree = "<group>"; };
 		AE44C9081CDE201800C66253 /* BSVCTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSVCTabbar.m; sourceTree = "<group>"; };
+		AE44C90A1CDE3CE300C66253 /* BSessenceTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSessenceTV.h; path = ../BSessenceTV.h; sourceTree = "<group>"; };
+		AE44C90B1CDE3CE300C66253 /* BSessenceTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSessenceTV.m; path = ../BSessenceTV.m; sourceTree = "<group>"; };
+		AE44C90D1CDE3D1C00C66253 /* BSNewTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSNewTV.h; path = ../BSNewTV.h; sourceTree = "<group>"; };
+		AE44C90E1CDE3D1C00C66253 /* BSNewTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSNewTV.m; path = ../BSNewTV.m; sourceTree = "<group>"; };
+		AE44C9101CDE3D2E00C66253 /* BSFriendTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFriendTV.h; sourceTree = "<group>"; };
+		AE44C9111CDE3D2E00C66253 /* BSFriendTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFriendTV.m; sourceTree = "<group>"; };
+		AE44C9131CDE3D4800C66253 /* BSMeTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMeTV.h; sourceTree = "<group>"; };
+		AE44C9141CDE3D4800C66253 /* BSMeTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMeTV.m; sourceTree = "<group>"; };
 		AE4DC0CF1CDD8C9100617507 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4DC0D31CDD8C9100617507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE4DC0D51CDD8C9100617507 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,10 +68,18 @@
 		AE4DC0D11CDD8C9100617507 /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
+				AE44C90D1CDE3D1C00C66253 /* BSNewTV.h */,
+				AE44C90E1CDE3D1C00C66253 /* BSNewTV.m */,
+				AE44C90A1CDE3CE300C66253 /* BSessenceTV.h */,
+				AE44C90B1CDE3CE300C66253 /* BSessenceTV.m */,
 				AE4DC0D51CDD8C9100617507 /* AppDelegate.h */,
 				AE4DC0D61CDD8C9100617507 /* AppDelegate.m */,
 				AE44C9071CDE201800C66253 /* BSVCTabbar.h */,
 				AE44C9081CDE201800C66253 /* BSVCTabbar.m */,
+				AE44C9101CDE3D2E00C66253 /* BSFriendTV.h */,
+				AE44C9111CDE3D2E00C66253 /* BSFriendTV.m */,
+				AE44C9131CDE3D4800C66253 /* BSMeTV.h */,
+				AE44C9141CDE3D4800C66253 /* BSMeTV.m */,
 				AE4DC0D21CDD8C9100617507 /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -146,7 +166,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE44C9121CDE3D2E00C66253 /* BSFriendTV.m in Sources */,
+				AE44C9151CDE3D4800C66253 /* BSMeTV.m in Sources */,
 				AE4DC0D71CDD8C9100617507 /* AppDelegate.m in Sources */,
+				AE44C90C1CDE3CE300C66253 /* BSessenceTV.m in Sources */,
+				AE44C90F1CDE3D1C00C66253 /* BSNewTV.m in Sources */,
 				AE4DC0D41CDD8C9100617507 /* main.m in Sources */,
 				AE44C9091CDE201800C66253 /* BSVCTabbar.m in Sources */,
 			);
