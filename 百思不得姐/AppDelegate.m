@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "BSVCTabbar.h"
+#import "BSTabbarVC.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +21,7 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
-    BSVCTabbar *tabbar = [[BSVCTabbar alloc] init];
+    BSTabbarVC *tabbar = [[BSTabbarVC alloc] init];
     self.window.rootViewController = tabbar;
     
     [self.window makeKeyAndVisible];

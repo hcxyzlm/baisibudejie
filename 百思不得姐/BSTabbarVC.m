@@ -6,17 +6,18 @@
 //  Copyright © 2016年 com.lrts.zhuo. All rights reserved.
 //
 
-#import "BSVCTabbar.h"
+#import "BSTabbarVC.h"
 #import "BSessenceTV.h"
 #import "BSNewTV.h"
 #import "BSFriendTV.h"
 #import "BSMeTV.h"
+#import "BSTabBar.h"
 
-@interface BSVCTabbar ()
+@interface BSTabbarVC ()
 
 @end
 
-@implementation BSVCTabbar
+@implementation BSTabbarVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -53,6 +54,11 @@
     BSMeTV* VC4 = [[BSMeTV alloc] init];
     VC4.title = @"我的";
     [self setupChildVC:VC4 normalImg:@"tabBar_me_icon" seleteImg:@"tabBar_me_click_icon"];
+    
+    // 初始化自定义tabbar
+    [self setValue:[[BSTabBar alloc] init] forKey:@"tabBar"];
+    
+    NSLog(@"%@", self.tabBar);
 
 }
 
