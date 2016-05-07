@@ -18,6 +18,19 @@
     [super viewDidLoad];
     // 初始化四个导航栏
     
+    NSMutableDictionary* normalAttr = [[NSMutableDictionary alloc] init];
+    normalAttr[NSFontAttributeName] = [UIFont systemFontOfSize:12];
+    normalAttr[NSForegroundColorAttributeName] = [UIColor grayColor];
+    
+    NSMutableDictionary* selectAttr = [[NSMutableDictionary alloc] init];
+    selectAttr[NSFontAttributeName] = normalAttr[NSFontAttributeName];
+    selectAttr[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
+    
+    // 通过appar统一设置
+    UITabBarItem* apparItem = [UITabBarItem appearance];
+    [apparItem setTitleTextAttributes:normalAttr forState:UIControlStateNormal];
+    [apparItem setTitleTextAttributes:selectAttr forState:UIControlStateNormal];
+    
     UIViewController* VC1 = [[UIViewController alloc] init];
     VC1.view.backgroundColor = [UIColor greenColor];
     VC1.title = @"精华";
@@ -25,33 +38,32 @@
     UIImage* selectImg = [UIImage imageNamed:@"tabBar_essence_click_icon"];
     selectImg = [selectImg imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];// 使用原始的图片，不渲染
     [VC1.tabBarItem setSelectedImage:selectImg];
-    NSMutableDictionary* dict = [[NSMutableDictionary alloc] init];
-    dict[NSFontAttributeName] = [UIFont systemFontOfSize:12];
-    dict[NSForegroundColorAttributeName] = [UIColor grayColor]; // 颜色
-    [VC1.tabBarItem setTitleTextAttributes:dict forState:UIControlStateNormal];
-    dict[NSForegroundColorAttributeName] = [UIColor darkGrayColor];
-    [VC1.tabBarItem setTitleTextAttributes:dict forState:UIControlStateSelected];
-    
     [self addChildViewController:VC1];
     
     UIViewController* VC2 = [[UIViewController alloc] init];
     VC2.view.backgroundColor = [UIColor redColor];
     VC2.title = @"新帖";
     [VC2.tabBarItem setImage:[UIImage imageNamed:@"tabBar_new_icon"]];
-    [VC2.tabBarItem setSelectedImage:[UIImage imageNamed:@"tabBar_new_click_icon"]];
+    UIImage* selectImg1 = [UIImage imageNamed:@"tabBar_new_click_icon"];
+    selectImg1 = [selectImg1 imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    [VC2.tabBarItem setSelectedImage:selectImg1];
     [self addChildViewController:VC2];
     
     UIViewController* VC3 = [[UIViewController alloc] init];
     VC3.view.backgroundColor = [UIColor blueColor];
     [VC3.tabBarItem setImage:[UIImage imageNamed:@"tabBar_friendTrends_icon"]];
-    [VC3.tabBarItem setSelectedImage:[UIImage imageNamed:@"tabBar_friendTrends_click_icon"]];
+    UIImage* selectImg2 = [UIImage imageNamed:@"tabBar_friendTrends_click_icon"];
+    selectImg2 = [selectImg2 imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    [VC3.tabBarItem setSelectedImage:selectImg2];
     VC3.title = @"关注";
     [self addChildViewController:VC3];
     
     UIViewController* VC4 = [[UIViewController alloc] init];
     VC4.title = @"我的";
     [VC4.tabBarItem setImage:[UIImage imageNamed:@"tabBar_me_icon"]];
-    [VC4.tabBarItem setSelectedImage:[UIImage imageNamed:@"tabBar_me_click_icon"]];
+    UIImage* selectImg3 = [UIImage imageNamed:@"tabBar_me_click_icon"];
+    selectImg3 = [selectImg3 imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    [VC4.tabBarItem setSelectedImage:selectImg3];
     VC4.view.backgroundColor = [UIColor grayColor];
     [self addChildViewController:VC4];
     
