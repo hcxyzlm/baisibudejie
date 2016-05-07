@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE44C9091CDE201800C66253 /* BSVCTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9081CDE201800C66253 /* BSVCTabbar.m */; };
 		AE4DC0D41CDD8C9100617507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4DC0D31CDD8C9100617507 /* main.m */; };
 		AE4DC0D71CDD8C9100617507 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4DC0D61CDD8C9100617507 /* AppDelegate.m */; };
-		AE4DC0DA1CDD8C9100617507 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4DC0D91CDD8C9100617507 /* ViewController.m */; };
 		AE4DC0DD1CDD8C9200617507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4DC0DB1CDD8C9200617507 /* Main.storyboard */; };
 		AE4DC0DF1CDD8C9200617507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4DC0DE1CDD8C9200617507 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE44C9071CDE201800C66253 /* BSVCTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSVCTabbar.h; sourceTree = "<group>"; };
+		AE44C9081CDE201800C66253 /* BSVCTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSVCTabbar.m; sourceTree = "<group>"; };
 		AE4DC0CF1CDD8C9100617507 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4DC0D31CDD8C9100617507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE4DC0D51CDD8C9100617507 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE4DC0D61CDD8C9100617507 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE4DC0D81CDD8C9100617507 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AE4DC0D91CDD8C9100617507 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AE4DC0DC1CDD8C9200617507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE4DC0DE1CDD8C9200617507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE4DC0E31CDD8C9200617507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,8 +58,8 @@
 			children = (
 				AE4DC0D51CDD8C9100617507 /* AppDelegate.h */,
 				AE4DC0D61CDD8C9100617507 /* AppDelegate.m */,
-				AE4DC0D81CDD8C9100617507 /* ViewController.h */,
-				AE4DC0D91CDD8C9100617507 /* ViewController.m */,
+				AE44C9071CDE201800C66253 /* BSVCTabbar.h */,
+				AE44C9081CDE201800C66253 /* BSVCTabbar.m */,
 				AE4DC0D21CDD8C9100617507 /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -146,9 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE4DC0DA1CDD8C9100617507 /* ViewController.m in Sources */,
 				AE4DC0D71CDD8C9100617507 /* AppDelegate.m in Sources */,
 				AE4DC0D41CDD8C9100617507 /* main.m in Sources */,
+				AE44C9091CDE201800C66253 /* BSVCTabbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +295,7 @@
 				AE4DC0E81CDD8C9200617507 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
