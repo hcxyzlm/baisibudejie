@@ -16,12 +16,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.title = @"我的";
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    UIBarButtonItem* settingBar = [UIBarButtonItem itemWithImage:@"mine-setting-icon" selectImg:@"mine-setting-icon-click" target:self actcion:@selector(clickSetButton:)];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    UIBarButtonItem* darkBar = [UIBarButtonItem itemWithImage:@"mine-moon-icon" selectImg:@"mine-moon-icon-click" target:self actcion:@selector(clickDarkButton:)];
+    
+    [self.navigationItem setRightBarButtonItems:@[settingBar,darkBar]];
+    
+}
+                                   
+-(void) clickSetButton:(UIButton*)Btn
+{
+    BSLogFunc;
+}
+
+-(void) clickDarkButton:(UIButton*)Btn
+{
+    BSLogFunc;
 }
 
 - (void)didReceiveMemoryWarning {

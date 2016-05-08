@@ -17,11 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+   self.navigationItem.title = @"我的关注";
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" selectImg:@"friendsRecommentIcon-click" target:self actcion:@selector(clickFriendButton:)];
+
+}
+-(void) clickFriendButton:(UIButton*)Btn
+{
+    BSLogFunc;
 }
 
 - (void)didReceiveMemoryWarning {

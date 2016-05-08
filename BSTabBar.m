@@ -22,6 +22,7 @@
     [publishBtn setBackgroundImage:[UIImage imageNamed:@"tabBar_publish_click_icon"] forState:UIControlStateSelected];
     
     [publishBtn addTarget:self action:@selector(onClickPublish:) forControlEvents:UIControlEventTouchUpInside];
+    publishBtn.size = CGSizeMake(publishBtn.currentBackgroundImage.size.width, publishBtn.currentBackgroundImage.size.height);
     
     [self addSubview:publishBtn];
     self.publishBtn = publishBtn;
@@ -31,6 +32,7 @@
 
 - (void)onClickPublish:(UIButton*)btn
 {
+    NSLog(@"%s", __func__);
     if (self.buttonBlock) {
         self.buttonBlock(0);
     }
@@ -42,8 +44,13 @@
     [super layoutSubviews];
     
     CGFloat itemWidth = (CGRectGetWidth(self.frame) / 5);
-     self.publishBtn.frame = CGRectMake(self.frame.size.width/2, self.frame.size.height/2, self.publishBtn.currentBackgroundImage.size.width, self.publishBtn.currentBackgroundImage.size.height);
-    self.publishBtn.center = CGPointMake(self.frame.size.width/2, self.frame.size.height/2);
+    self.publishBtn.x = self.width/2;
+    self.publishBtn.y = self.height/2;
+    BSLOG(@"%f, %f", self.publishBtn.center.x, self.publishBtn.center.y);
+    self.publishBtn.center = CGPointMake(self.width/2, self.height/2);
+    
+//     self.publishBtn.frame = CGRectMake(self.frame.size.width/2, self.frame.size.height/2, self.publishBtn.currentBackgroundImage.size.width, self.publishBtn.currentBackgroundImage.size.height);
+//    self.publishBtn.center = CGPointMake(self.frame.size.width/2, self.frame.size.height/2);
     // 分成5等分
     NSInteger index = 0;
     for (UIView* subView in self.subviews)
@@ -51,9 +58,9 @@
        if ([subView isKindOfClass:NSClassFromString(@"UITabBarButton")])
        {
            NSLog(@"index = %zd",index);
-           CGRect frame =subView.frame;
-           frame.origin.x = (index > 1 ?(index+1): index) * itemWidth;
-           subView.frame = frame;
+           //CGRect frame =subView.frame;
+          subView.x = (index > 1 ?(index+1): index) * itemWidth;
+           //subView.frame = frame;
            index++;
        }
         

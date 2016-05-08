@@ -17,13 +17,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    // 添加的uiview
+    UIImageView* view = [[UIImageView alloc]init];
+    view.image = [UIImage imageNamed:@"MainTitle"];
+    view.size = view.image.size;
+    self.navigationItem.titleView = view;
+//    // 添加左边的导航条
+//    UIBarButtonItem *leftSpacer = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
+//    [leftSpacer setWidth:-10]; // ios7以后默认会是-15
+//    UIButton* tagButton = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [tagButton setBackgroundImage:[UIImage imageNamed:@"MainTagSubIcon"] forState:UIControlStateNormal];
+//    [tagButton setBackgroundImage:[UIImage imageNamed:@"MainTagSubIconClick"] forState:UIControlStateHighlighted];
+//    tagButton.size = [tagButton currentBackgroundImage].size;
+//    UIBarButtonItem* leftItem = [[UIBarButtonItem alloc] initWithCustomView:tagButton];
+//
+//    [self.navigationItem setLeftBarButtonItems:@[leftSpacer, leftItem]];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" selectImg:@"MainTagSubIconClick" target:self actcion:@selector(clickTagButton:)];
 }
 
+-(void) clickTagButton:(UIButton*)Btn
+{
+    BSLogFunc;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

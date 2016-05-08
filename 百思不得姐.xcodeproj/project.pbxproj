@@ -13,6 +13,8 @@
 		AE44C9121CDE3D2E00C66253 /* BSFriendTV.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9111CDE3D2E00C66253 /* BSFriendTV.m */; };
 		AE44C9151CDE3D4800C66253 /* BSMeTV.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9141CDE3D4800C66253 /* BSMeTV.m */; };
 		AE44C9181CDE43E900C66253 /* BSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9171CDE43E900C66253 /* BSTabBar.m */; };
+		AE44C91B1CDF7F9900C66253 /* UIView+FrameEx.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C91A1CDF7F9900C66253 /* UIView+FrameEx.m */; };
+		AE44C9221CDF9D8700C66253 /* UIBarButtonItem+BSExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9211CDF9D8700C66253 /* UIBarButtonItem+BSExporter.m */; };
 		AE4DC0D41CDD8C9100617507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4DC0D31CDD8C9100617507 /* main.m */; };
 		AE4DC0D71CDD8C9100617507 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4DC0D61CDD8C9100617507 /* AppDelegate.m */; };
 		AE4DC0DD1CDD8C9200617507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4DC0DB1CDD8C9200617507 /* Main.storyboard */; };
@@ -32,6 +34,11 @@
 		AE44C9141CDE3D4800C66253 /* BSMeTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMeTV.m; sourceTree = "<group>"; };
 		AE44C9161CDE43E900C66253 /* BSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSTabBar.h; path = ../BSTabBar.h; sourceTree = "<group>"; };
 		AE44C9171CDE43E900C66253 /* BSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSTabBar.m; path = ../BSTabBar.m; sourceTree = "<group>"; };
+		AE44C9191CDF7F9900C66253 /* UIView+FrameEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameEx.h"; sourceTree = "<group>"; };
+		AE44C91A1CDF7F9900C66253 /* UIView+FrameEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameEx.m"; sourceTree = "<group>"; };
+		AE44C91C1CDF801800C66253 /* BSPixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BSPixHeader.pch; path = ../BSPixHeader.pch; sourceTree = "<group>"; };
+		AE44C9201CDF9D8700C66253 /* UIBarButtonItem+BSExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BSExporter.h"; sourceTree = "<group>"; };
+		AE44C9211CDF9D8700C66253 /* UIBarButtonItem+BSExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BSExporter.m"; sourceTree = "<group>"; };
 		AE4DC0CF1CDD8C9100617507 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4DC0D31CDD8C9100617507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AE4DC0D51CDD8C9100617507 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +92,11 @@
 				AE44C9141CDE3D4800C66253 /* BSMeTV.m */,
 				AE44C9161CDE43E900C66253 /* BSTabBar.h */,
 				AE44C9171CDE43E900C66253 /* BSTabBar.m */,
+				AE44C9191CDF7F9900C66253 /* UIView+FrameEx.h */,
+				AE44C91A1CDF7F9900C66253 /* UIView+FrameEx.m */,
+				AE44C91C1CDF801800C66253 /* BSPixHeader.pch */,
+				AE44C9201CDF9D8700C66253 /* UIBarButtonItem+BSExporter.h */,
+				AE44C9211CDF9D8700C66253 /* UIBarButtonItem+BSExporter.m */,
 				AE4DC0D21CDD8C9100617507 /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -173,6 +185,8 @@
 			files = (
 				AE44C9121CDE3D2E00C66253 /* BSFriendTV.m in Sources */,
 				AE44C9151CDE3D4800C66253 /* BSMeTV.m in Sources */,
+				AE44C9221CDF9D8700C66253 /* UIBarButtonItem+BSExporter.m in Sources */,
+				AE44C91B1CDF7F9900C66253 /* UIView+FrameEx.m in Sources */,
 				AE4DC0D71CDD8C9100617507 /* AppDelegate.m in Sources */,
 				AE44C90C1CDE3CE300C66253 /* BSessenceTV.m in Sources */,
 				AE44C90F1CDE3D1C00C66253 /* BSNewTV.m in Sources */,
@@ -285,6 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = BSPixHeader.pch;
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lrts.-----";
@@ -298,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = BSPixHeader.pch;
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.lrts.-----";

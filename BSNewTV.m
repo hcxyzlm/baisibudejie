@@ -17,11 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+    UIImageView* view = [[UIImageView alloc]init];
+    view.image = [UIImage imageNamed:@"MainTitle"];
+    view.size = view.image.size;
+    self.navigationItem.titleView = view;
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" selectImg:@"MainTagSubIconClick" target:self actcion:@selector(clickTagButton:)];
+
+}
+
+-(void) clickTagButton:(UIButton*)Btn
+{
+    BSLogFunc;
 }
 
 - (void)didReceiveMemoryWarning {

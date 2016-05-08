@@ -1,0 +1,24 @@
+//
+//  BSPixHeader.pch
+//  百思不得姐
+//
+//  Created by zhuo on 16/5/8.
+//  Copyright © 2016年 com.lrts.zhuo. All rights reserved.
+//
+
+#ifndef BSPixHeader_pch
+#define BSPixHeader_pch
+
+#import "UIView+FrameEx.h"
+#import "UIBarButtonItem+BSExporter.h"
+
+// 调试log
+#ifdef DEBUG
+#define BSLOG(...) NSLog(__VA_ARGS__)
+#else
+#define BSLOG(...)
+#endif
+
+// 打印函数的log
+#define BSLogFunc NSLog(@"%s", __func__)
+#endif /* BSPixHeader_pch */
