@@ -6,12 +6,12 @@
 //  Copyright © 2016年 com.lrts.zhuo. All rights reserved.
 //
 
-#import "BSTabBar.h"
-@interface BSTabBar()
+#import "BSCustomTabBar.h"
+@interface BSCustomTabBar()
 @property (nonatomic, weak) UIButton*publishBtn; // 增加按钮
 @end
 
-@implementation BSTabBar
+@implementation BSCustomTabBar
 -(instancetype) initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];

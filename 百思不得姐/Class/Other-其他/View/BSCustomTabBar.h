@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 typedef void (^TabbarButtonClick)(NSUInteger index);
 // 按钮点击
-@interface BSTabBar : UITabBar
+@interface BSCustomTabBar : UITabBar
 @property (copy  , nonatomic) TabbarButtonClick buttonBlock;
 @end

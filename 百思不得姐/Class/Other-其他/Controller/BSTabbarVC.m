@@ -11,7 +11,7 @@
 #import "BSNewTV.h"
 #import "BSFriendTV.h"
 #import "BSMeTV.h"
-#import "BSTabBar.h"
+#import "BSCustomTabBar.h"
 
 @interface BSTabbarVC ()
 
@@ -52,7 +52,7 @@
     [self setupChildVC:VC4 title:@"我的" normalImg:@"tabBar_me_icon" seleteImg:@"tabBar_me_click_icon"];
     
     // 初始化自定义tabbar
-    [self setValue:[[BSTabBar alloc] init] forKey:@"tabBar"];
+    [self setValue:[[BSCustomTabBar alloc] init] forKey:@"tabBar"];
     
     NSLog(@"%@", self.tabBar);
 

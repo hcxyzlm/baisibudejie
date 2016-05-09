@@ -7,42 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE44C9091CDE201800C66253 /* BSTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9081CDE201800C66253 /* BSTabbarVC.m */; };
-		AE44C90C1CDE3CE300C66253 /* BSessenceTV.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C90B1CDE3CE300C66253 /* BSessenceTV.m */; };
-		AE44C90F1CDE3D1C00C66253 /* BSNewTV.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C90E1CDE3D1C00C66253 /* BSNewTV.m */; };
-		AE44C9121CDE3D2E00C66253 /* BSFriendTV.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9111CDE3D2E00C66253 /* BSFriendTV.m */; };
-		AE44C9151CDE3D4800C66253 /* BSMeTV.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9141CDE3D4800C66253 /* BSMeTV.m */; };
-		AE44C9181CDE43E900C66253 /* BSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9171CDE43E900C66253 /* BSTabBar.m */; };
-		AE44C91B1CDF7F9900C66253 /* UIView+FrameEx.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C91A1CDF7F9900C66253 /* UIView+FrameEx.m */; };
-		AE44C9221CDF9D8700C66253 /* UIBarButtonItem+BSExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9211CDF9D8700C66253 /* UIBarButtonItem+BSExporter.m */; };
-		AE4DC0D41CDD8C9100617507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4DC0D31CDD8C9100617507 /* main.m */; };
-		AE4DC0D71CDD8C9100617507 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4DC0D61CDD8C9100617507 /* AppDelegate.m */; };
+		AE44C94C1CE03E4400C66253 /* BSessenceTV.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9271CE03E4400C66253 /* BSessenceTV.m */; };
+		AE44C94D1CE03E4400C66253 /* BSFriendTV.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C92D1CE03E4400C66253 /* BSFriendTV.m */; };
+		AE44C94E1CE03E4400C66253 /* BSMeTV.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9331CE03E4400C66253 /* BSMeTV.m */; };
+		AE44C94F1CE03E4400C66253 /* BSNewTV.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9391CE03E4400C66253 /* BSNewTV.m */; };
+		AE44C9501CE03E4400C66253 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C93E1CE03E4400C66253 /* AppDelegate.m */; };
+		AE44C9511CE03E4400C66253 /* UIBarButtonItem+BSExporter.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9421CE03E4400C66253 /* UIBarButtonItem+BSExporter.m */; };
+		AE44C9521CE03E4400C66253 /* UIView+FrameEx.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9441CE03E4400C66253 /* UIView+FrameEx.m */; };
+		AE44C9531CE03E4400C66253 /* BSTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9471CE03E4400C66253 /* BSTabbarVC.m */; };
+		AE44C9541CE03E4400C66253 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C9481CE03E4400C66253 /* main.m */; };
+		AE44C9551CE03E4400C66253 /* BSCustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE44C94B1CE03E4400C66253 /* BSCustomTabBar.m */; };
 		AE4DC0DD1CDD8C9200617507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4DC0DB1CDD8C9200617507 /* Main.storyboard */; };
 		AE4DC0DF1CDD8C9200617507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4DC0DE1CDD8C9200617507 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AE44C9071CDE201800C66253 /* BSTabbarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTabbarVC.h; sourceTree = "<group>"; };
-		AE44C9081CDE201800C66253 /* BSTabbarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTabbarVC.m; sourceTree = "<group>"; };
-		AE44C90A1CDE3CE300C66253 /* BSessenceTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSessenceTV.h; path = ../BSessenceTV.h; sourceTree = "<group>"; };
-		AE44C90B1CDE3CE300C66253 /* BSessenceTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSessenceTV.m; path = ../BSessenceTV.m; sourceTree = "<group>"; };
-		AE44C90D1CDE3D1C00C66253 /* BSNewTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSNewTV.h; path = ../BSNewTV.h; sourceTree = "<group>"; };
-		AE44C90E1CDE3D1C00C66253 /* BSNewTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSNewTV.m; path = ../BSNewTV.m; sourceTree = "<group>"; };
-		AE44C9101CDE3D2E00C66253 /* BSFriendTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFriendTV.h; sourceTree = "<group>"; };
-		AE44C9111CDE3D2E00C66253 /* BSFriendTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFriendTV.m; sourceTree = "<group>"; };
-		AE44C9131CDE3D4800C66253 /* BSMeTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMeTV.h; sourceTree = "<group>"; };
-		AE44C9141CDE3D4800C66253 /* BSMeTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMeTV.m; sourceTree = "<group>"; };
-		AE44C9161CDE43E900C66253 /* BSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSTabBar.h; path = ../BSTabBar.h; sourceTree = "<group>"; };
-		AE44C9171CDE43E900C66253 /* BSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSTabBar.m; path = ../BSTabBar.m; sourceTree = "<group>"; };
-		AE44C9191CDF7F9900C66253 /* UIView+FrameEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameEx.h"; sourceTree = "<group>"; };
-		AE44C91A1CDF7F9900C66253 /* UIView+FrameEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameEx.m"; sourceTree = "<group>"; };
-		AE44C91C1CDF801800C66253 /* BSPixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BSPixHeader.pch; path = ../BSPixHeader.pch; sourceTree = "<group>"; };
-		AE44C9201CDF9D8700C66253 /* UIBarButtonItem+BSExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BSExporter.h"; sourceTree = "<group>"; };
-		AE44C9211CDF9D8700C66253 /* UIBarButtonItem+BSExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BSExporter.m"; sourceTree = "<group>"; };
+		AE44C9261CE03E4400C66253 /* BSessenceTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSessenceTV.h; sourceTree = "<group>"; };
+		AE44C9271CE03E4400C66253 /* BSessenceTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSessenceTV.m; sourceTree = "<group>"; };
+		AE44C92C1CE03E4400C66253 /* BSFriendTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSFriendTV.h; sourceTree = "<group>"; };
+		AE44C92D1CE03E4400C66253 /* BSFriendTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSFriendTV.m; sourceTree = "<group>"; };
+		AE44C9321CE03E4400C66253 /* BSMeTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSMeTV.h; sourceTree = "<group>"; };
+		AE44C9331CE03E4400C66253 /* BSMeTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSMeTV.m; sourceTree = "<group>"; };
+		AE44C9381CE03E4400C66253 /* BSNewTV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSNewTV.h; sourceTree = "<group>"; };
+		AE44C9391CE03E4400C66253 /* BSNewTV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSNewTV.m; sourceTree = "<group>"; };
+		AE44C93D1CE03E4400C66253 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE44C93E1CE03E4400C66253 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE44C93F1CE03E4400C66253 /* BSPixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPixHeader.pch; sourceTree = "<group>"; };
+		AE44C9411CE03E4400C66253 /* UIBarButtonItem+BSExporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+BSExporter.h"; sourceTree = "<group>"; };
+		AE44C9421CE03E4400C66253 /* UIBarButtonItem+BSExporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+BSExporter.m"; sourceTree = "<group>"; };
+		AE44C9431CE03E4400C66253 /* UIView+FrameEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameEx.h"; sourceTree = "<group>"; };
+		AE44C9441CE03E4400C66253 /* UIView+FrameEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameEx.m"; sourceTree = "<group>"; };
+		AE44C9461CE03E4400C66253 /* BSTabbarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSTabbarVC.h; sourceTree = "<group>"; };
+		AE44C9471CE03E4400C66253 /* BSTabbarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSTabbarVC.m; sourceTree = "<group>"; };
+		AE44C9481CE03E4400C66253 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE44C94A1CE03E4400C66253 /* BSCustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSCustomTabBar.h; sourceTree = "<group>"; };
+		AE44C94B1CE03E4400C66253 /* BSCustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSCustomTabBar.m; sourceTree = "<group>"; };
 		AE4DC0CF1CDD8C9100617507 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE4DC0D31CDD8C9100617507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE4DC0D51CDD8C9100617507 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AE4DC0D61CDD8C9100617507 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AE4DC0DC1CDD8C9200617507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE4DC0DE1CDD8C9200617507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE4DC0E31CDD8C9200617507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +59,193 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE44C9231CE03E4400C66253 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				AE44C9241CE03E4400C66253 /* Essence-精华 */,
+				AE44C92A1CE03E4400C66253 /* Friend-关注 */,
+				AE44C9301CE03E4400C66253 /* Me-我的 */,
+				AE44C9361CE03E4400C66253 /* New-新帖 */,
+				AE44C93C1CE03E4400C66253 /* Other-其他 */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		AE44C9241CE03E4400C66253 /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				AE44C9251CE03E4400C66253 /* Controller */,
+				AE44C9281CE03E4400C66253 /* Model */,
+				AE44C9291CE03E4400C66253 /* View */,
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		AE44C9251CE03E4400C66253 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE44C9261CE03E4400C66253 /* BSessenceTV.h */,
+				AE44C9271CE03E4400C66253 /* BSessenceTV.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE44C9281CE03E4400C66253 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE44C9291CE03E4400C66253 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE44C92A1CE03E4400C66253 /* Friend-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				AE44C92B1CE03E4400C66253 /* Controller */,
+				AE44C92E1CE03E4400C66253 /* Model */,
+				AE44C92F1CE03E4400C66253 /* View */,
+			);
+			path = "Friend-关注";
+			sourceTree = "<group>";
+		};
+		AE44C92B1CE03E4400C66253 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE44C92C1CE03E4400C66253 /* BSFriendTV.h */,
+				AE44C92D1CE03E4400C66253 /* BSFriendTV.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE44C92E1CE03E4400C66253 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE44C92F1CE03E4400C66253 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE44C9301CE03E4400C66253 /* Me-我的 */ = {
+			isa = PBXGroup;
+			children = (
+				AE44C9311CE03E4400C66253 /* Controller */,
+				AE44C9341CE03E4400C66253 /* Model */,
+				AE44C9351CE03E4400C66253 /* View */,
+			);
+			path = "Me-我的";
+			sourceTree = "<group>";
+		};
+		AE44C9311CE03E4400C66253 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE44C9321CE03E4400C66253 /* BSMeTV.h */,
+				AE44C9331CE03E4400C66253 /* BSMeTV.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE44C9341CE03E4400C66253 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE44C9351CE03E4400C66253 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE44C9361CE03E4400C66253 /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				AE44C9371CE03E4400C66253 /* Controller */,
+				AE44C93A1CE03E4400C66253 /* Model */,
+				AE44C93B1CE03E4400C66253 /* View */,
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		AE44C9371CE03E4400C66253 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE44C9381CE03E4400C66253 /* BSNewTV.h */,
+				AE44C9391CE03E4400C66253 /* BSNewTV.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE44C93A1CE03E4400C66253 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE44C93B1CE03E4400C66253 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE44C93C1CE03E4400C66253 /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				AE44C93D1CE03E4400C66253 /* AppDelegate.h */,
+				AE44C93E1CE03E4400C66253 /* AppDelegate.m */,
+				AE44C93F1CE03E4400C66253 /* BSPixHeader.pch */,
+				AE44C9481CE03E4400C66253 /* main.m */,
+				AE44C9401CE03E4400C66253 /* Category */,
+				AE44C9451CE03E4400C66253 /* Controller */,
+				AE44C9491CE03E4400C66253 /* View */,
+			);
+			path = "Other-其他";
+			sourceTree = "<group>";
+		};
+		AE44C9401CE03E4400C66253 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AE44C9411CE03E4400C66253 /* UIBarButtonItem+BSExporter.h */,
+				AE44C9421CE03E4400C66253 /* UIBarButtonItem+BSExporter.m */,
+				AE44C9431CE03E4400C66253 /* UIView+FrameEx.h */,
+				AE44C9441CE03E4400C66253 /* UIView+FrameEx.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		AE44C9451CE03E4400C66253 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE44C9461CE03E4400C66253 /* BSTabbarVC.h */,
+				AE44C9471CE03E4400C66253 /* BSTabbarVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE44C9491CE03E4400C66253 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE44C94A1CE03E4400C66253 /* BSCustomTabBar.h */,
+				AE44C94B1CE03E4400C66253 /* BSCustomTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		AE4DC0C61CDD8C9100617507 = {
 			isa = PBXGroup;
 			children = (
@@ -78,25 +265,7 @@
 		AE4DC0D11CDD8C9100617507 /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
-				AE44C90D1CDE3D1C00C66253 /* BSNewTV.h */,
-				AE44C90E1CDE3D1C00C66253 /* BSNewTV.m */,
-				AE44C90A1CDE3CE300C66253 /* BSessenceTV.h */,
-				AE44C90B1CDE3CE300C66253 /* BSessenceTV.m */,
-				AE4DC0D51CDD8C9100617507 /* AppDelegate.h */,
-				AE4DC0D61CDD8C9100617507 /* AppDelegate.m */,
-				AE44C9071CDE201800C66253 /* BSTabbarVC.h */,
-				AE44C9081CDE201800C66253 /* BSTabbarVC.m */,
-				AE44C9101CDE3D2E00C66253 /* BSFriendTV.h */,
-				AE44C9111CDE3D2E00C66253 /* BSFriendTV.m */,
-				AE44C9131CDE3D4800C66253 /* BSMeTV.h */,
-				AE44C9141CDE3D4800C66253 /* BSMeTV.m */,
-				AE44C9161CDE43E900C66253 /* BSTabBar.h */,
-				AE44C9171CDE43E900C66253 /* BSTabBar.m */,
-				AE44C9191CDF7F9900C66253 /* UIView+FrameEx.h */,
-				AE44C91A1CDF7F9900C66253 /* UIView+FrameEx.m */,
-				AE44C91C1CDF801800C66253 /* BSPixHeader.pch */,
-				AE44C9201CDF9D8700C66253 /* UIBarButtonItem+BSExporter.h */,
-				AE44C9211CDF9D8700C66253 /* UIBarButtonItem+BSExporter.m */,
+				AE44C9231CE03E4400C66253 /* Class */,
 				AE4DC0D21CDD8C9100617507 /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -108,7 +277,6 @@
 				AE4DC0DB1CDD8C9200617507 /* Main.storyboard */,
 				AE4DC0DE1CDD8C9200617507 /* Assets.xcassets */,
 				AE4DC0E31CDD8C9200617507 /* Info.plist */,
-				AE4DC0D31CDD8C9100617507 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -144,7 +312,7 @@
 				TargetAttributes = {
 					AE4DC0CE1CDD8C9100617507 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 4LKW42Z894;
+						DevelopmentTeam = N5J4EWDZG2;
 					};
 				};
 			};
@@ -183,16 +351,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE44C9121CDE3D2E00C66253 /* BSFriendTV.m in Sources */,
-				AE44C9151CDE3D4800C66253 /* BSMeTV.m in Sources */,
-				AE44C9221CDF9D8700C66253 /* UIBarButtonItem+BSExporter.m in Sources */,
-				AE44C91B1CDF7F9900C66253 /* UIView+FrameEx.m in Sources */,
-				AE4DC0D71CDD8C9100617507 /* AppDelegate.m in Sources */,
-				AE44C90C1CDE3CE300C66253 /* BSessenceTV.m in Sources */,
-				AE44C90F1CDE3D1C00C66253 /* BSNewTV.m in Sources */,
-				AE4DC0D41CDD8C9100617507 /* main.m in Sources */,
-				AE44C9181CDE43E900C66253 /* BSTabBar.m in Sources */,
-				AE44C9091CDE201800C66253 /* BSTabbarVC.m in Sources */,
+				AE44C9521CE03E4400C66253 /* UIView+FrameEx.m in Sources */,
+				AE44C9531CE03E4400C66253 /* BSTabbarVC.m in Sources */,
+				AE44C94E1CE03E4400C66253 /* BSMeTV.m in Sources */,
+				AE44C9551CE03E4400C66253 /* BSCustomTabBar.m in Sources */,
+				AE44C94F1CE03E4400C66253 /* BSNewTV.m in Sources */,
+				AE44C94D1CE03E4400C66253 /* BSFriendTV.m in Sources */,
+				AE44C94C1CE03E4400C66253 /* BSessenceTV.m in Sources */,
+				AE44C9511CE03E4400C66253 /* UIBarButtonItem+BSExporter.m in Sources */,
+				AE44C9541CE03E4400C66253 /* main.m in Sources */,
+				AE44C9501CE03E4400C66253 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,10 +467,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PREFIX_HEADER = BSPixHeader.pch;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "百思不得姐/Class/Other-其他/BSPixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lrts.-----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yytingting.bsbdj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -313,10 +483,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PREFIX_HEADER = BSPixHeader.pch;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "百思不得姐/Class/Other-其他/BSPixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lrts.-----";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yytingting.bsbdj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
